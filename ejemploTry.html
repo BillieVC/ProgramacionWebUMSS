@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		function test(){
+			try{
+				
+				var a=Number(prompt ("Introduce un numero"));
+				if(isNaN(a)) throw "El primer numero no es valido";
+				var b=Number(prompt("Introduce otro numero"));
+				
+				if(isNaN(b)) throw "El segundo numero no es valido";
+				alert("La suma es: "+(a+b));
+			}catch(error){
+				alert(error);
+			}
+		}
+	</script>
+	<body>
+		<input type="button" name="sum" onclick="test();" value="Sumar"/>
+	</body>
+</head>
+</html>

@@ -1,0 +1,22 @@
+La instrucción try le permite probar un bloque de código en busca de errores.
+
+La declaración de captura le permite manejar el error.
+
+La sentencia throw le permite crear errores personalizados.
+
+La instrucción try le permite definir un bloque de código para que se pruebe en busca de errores mientras se ejecuta.
+
+La instrucción catch le permite definir un bloque de código que se ejecutará, si ocurre un error en el bloque try.
+
+Las declaraciones de JavaScript que intentan capturar vienen en pares:
+
+Se lanza un RangeError si usa un número que está fuera del rango de valores legales.
+
+Se lanza un ReferenceError si usa (referencia) una variable que no ha sido declarada:
+
+Se genera un SyntaxError si intenta evaluar el código con un error de sintaxis. eval() evalua una cadena de string
+
+Se lanza un TypeError si usa un valor que está fuera del rango de tipos esperados:
+
+Resultados de traducción
+Se lanza un URIError si usa caracteres ilegales en una función URI:
